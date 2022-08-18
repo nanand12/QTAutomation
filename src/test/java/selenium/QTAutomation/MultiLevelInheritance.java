@@ -30,9 +30,11 @@ public class MultiLevelInheritance {
 
 			MultiLevelInheritance p1 = new MultiLevelInheritance();
 	            p1.Animal();
-	            Child1 ch= new Child1();
-	            ch.Animal();
 	          
+	            
+	           // Child1 ch= new Child1();
+	             // p1.Animal();
+	            
 	           
 
 
