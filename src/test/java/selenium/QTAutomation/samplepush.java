@@ -3,8 +3,8 @@ package selenium.QTAutomation;
 public class samplepush {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println("pushing this new1 changes");
+		System.out.println("pushing this new2 changes");
 	}
 
 }
