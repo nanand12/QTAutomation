@@ -16,7 +16,7 @@ public class DragNDrop {
         d.navigate().to("http://www.uitestpractice.com/Students/Actions");
         //WebElement draggableicn=d.findElement(By.id("draggable"));
        // WebElement droppableicn=d.findElement(By.id("droppable"));
-        WebElement doubleClick= d.findElement(By.xpath(//button[@name='dblClick']));
+        WebElement doubleClick= d.findElement(By.xpath("//button[@name='dblClick'])"));
        Actions action=new Actions(d);
        // action.dragAndDrop(draggableicn, droppableicn).build().perform();
         action.doubleClick(doubleClick).build().perform();

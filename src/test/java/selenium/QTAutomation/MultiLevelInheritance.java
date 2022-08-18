@@ -1,13 +1,15 @@
 package selenium.QTAutomation;
 
-public class MultiLevelInheritance {
+
+class MultiLevel {
 
         void Animal()
         {
             System.out.println("This is the parent method Animal");
         }
+}
 
-        class Child1 extends MultiLevelInheritance
+        class Child1 extends MultiLevel
         {
             void Dog()
             {
@@ -24,19 +26,16 @@ public class MultiLevelInheritance {
             }
         }
 		
-
+        public class MultiLevelInheritance{
 	public static void main(String[] args) {
-		{
+		
 
-			MultiLevelInheritance p1 = new MultiLevelInheritance();
+		MultiLevel p1 = new MultiLevel();
 	            p1.Animal();
-	            Child1 ch= new Child1();
-	            ch.Animal();
+	            Child2 ch2= new Child2();
+	            ch2.Animal();;
 	          
-	           
-
-
 	        }
-	}
+        }
 	
-}
+	
